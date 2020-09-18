@@ -41,7 +41,7 @@ be represented. Currently there are six such data types:
 
 ## Approval Voting
 
-Voting system where voter can vote for as many candidates as desired. The candidate with highest
+Voting system where voters can vote for as many candidates as desired. The candidate with the highest
 overall amount of votes wins. Notably:
 
 - voting for all candidates is exactly equivalent to voting for none; and
@@ -189,7 +189,7 @@ check/balance the more inclusive referendum system.
 
 ## Database Backend
 
-The means by which the [state](#state) of a [blockchain](#blockchain) network is persisted between
+The means by which the [state](#state) of a [blockchain](#blockchain) network persists between
 invocations of the [blockchain node](#node) application. There is
 [documentation](../advanced/storage) that explains the implementation of the database backend that
 is used by Substrate-based chains.
@@ -511,7 +511,7 @@ implemented through the [Parity JSON-RPC](https://github.com/paritytech/jsonrpc)
 
 An [instant finality](#instant-finality),
 [Byzantine fault tolerant (BFT)](#byzantine-fault-tolerance-bft) [consensus](#consensus) algorithm.
-One of a number of adaptions of [pBFT](#practical-byzantine-fault-tolerance-pbft) for blockchains.
+One of a number of adaptations of [pBFT](#practical-byzantine-fault-tolerance-pbft) for blockchains.
 Refer to its [implementation on GitHub](https://github.com/paritytech/rhododendron).
 
 ## Rococo
